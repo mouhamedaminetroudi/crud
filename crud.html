@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="crud.css">
+    
+</head>
+<body>
+    <div class="crud">
+
+    <div class="head">
+        <h2>cruds</h2>
+        <p>PRODUCT MANEGMENT SYSTEM</p>
+        
+    
+    
+    </div>
+    <div class="inputs">
+        <input type="text" id="title" placeholder="TITLE">
+        <div class="price">
+            <input type="number" id="price" onkeyup="gettotal()" placeholder="PRICE">
+            <input type="number" id="taxes" onkeyup="gettotal()" placeholder="TAXES">
+            <input type="number" id="ads" onkeyup="gettotal()" placeholder="ADS">
+            <input type="number" id="dis" onkeyup="gettotal()" placeholder="DISCOUNT">
+            <small id="total"></small>
+        </div>
+        <input type="number" id="count" placeholder="count">
+        <input type="text" id="category" placeholder="category"><br>
+        <button id="submit" onclick="create()">create</button>
+        
+    </div>
+    <div class="outputs">
+        <input type="text" id="search" placeholder="SEARCH">
+        <div class="btn">
+            <button id="searchtitle">Search By Title</button>
+            <button id="searchcategory">Search By Categegory</button>
+        </div>
+        <table>
+            <tr>
+                <TH>ID</TH>
+                <TH>TITLE</TH>
+                <TH>PRICE</TH>
+                <TH>TAXES</TH>
+                <TH>ADS</TH>
+                <TH>DISCOUNT</TH>
+                <th>TOTAL</th>
+                <TH>CATEGORY</TH>
+                <TH>UPDATE</TH>
+                <TH>DELETE</TH>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>samsung</td>
+                    <td>2000</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <TD>2000</TD>
+                    <TD>PHONE</TD>
+                    <td><button id="update">UPDATE</button></td>
+                    <td><button id="delete">DELETE</button></td>
+                    
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>samsung</td>
+                    <td>2000</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <TD>2000</TD>
+                    <TD>PHONE</TD>
+                    <td><button id="update">UPDATE</button></td>
+                    <td><button id="delete">DELETE</button></td>
+                    
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>samsung</td>
+                    <td>2000</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <TD>2000</TD>
+                    <TD>PHONE</TD>
+                    <td><button id="update">UPDATE</button></td>
+                    <td><button id="delete">DELETE</button></td>
+                    
+                </tr>
+                                <tr>
+                    <td>1</td>
+                    <td>samsung</td>
+                    <td>2000</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <TD>2000</TD>
+                    <TD>PHONE</TD>
+                    <td><button id="update">UPDATE</button></td>
+                    <td><button id="delete">DELETE</button></td>
+                    
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    
+</div>
+<script src="crud.js"></script>
+</body>
+</html>
