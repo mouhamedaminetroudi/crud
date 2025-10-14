@@ -29,14 +29,14 @@
         </div>
         <input type="number" id="count" placeholder="count">
         <input type="text" id="category" placeholder="category"><br>
-        <button id="submit" onclick="create()">create</button>
+        <button id="submit" >create</button>
         
     </div>
     <div class="outputs">
-        <input type="text" id="search" placeholder="SEARCH">
+        <input onkeyup="searchdata(this.value)" type="text" id="search" placeholder="SEARCH">
         <div class="btn">
-            <button id="searchtitle">Search By Title</button>
-            <button id="searchcategory">Search By Categegory</button>
+            <button onclick="searchmood(this.id)" id="searchtitle">Search By Title</button>
+            <button onclick="searchmood(this.id)" id="searchcategory">Search By Category</button>
         </div>
         <div id="deleteall">
             
