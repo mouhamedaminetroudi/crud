@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(45deg,#240165,#05001c);
+    direction: rtl;
+    font-family: "Tajawal", sans-serif;
+}
+.card{
+    width: 12%;
+    height: 95%;
+    background-color: white;
+    font-size: 20px;
+    box-shadow: 0px 10px 5px rgb(0, 0, 0/ 30%);
+}  
+#h{
+    color: white;
+    margin-right:40px ;
+    margin-top: 100px;
+
+   
+}
+#city{
+    font-size: 100px;
+    font-weight: 300;
+}
+#date{
+    font-size: 40px;
+    font-weight: 200;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+hr{
+    margin: 0px 50px;
+    border-color: #5200e1;
+}
+.header{
+    background: linear-gradient(46deg,#5709ee,#7a37bf);
+    color: white;
+    
+}
+.header h1{
+    font-weight: 400;
+    padding: 5px;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    font-size: 70px;
+}
+.card{
+    width: 15%;
+}
