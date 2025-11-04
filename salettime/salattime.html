@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salettime</title>
+    <link rel="stylesheet" href="salattime.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="height: 100vh;">
+    <div id="h">
+    <h1 id="city">تونس</h1>
+    <h6 id="date">الجمعة</h6>
+    <hr>
+</div>
+<!-- open card -->
+<div class="center" style="justify-content: space-around;"> 
+<div class="card" style="height: 300px; margin-top: 80px; ">
+    <div class="header">
+        <h1>الفجر </h1>
+    </div>
+    <div class="body center"  style="height: 80%; ">
+        <h1 class="time" id="fajr-time">4:00</h1>
+    </div>
+</div>
+<!-- close card -->
+<!-- open card -->
+<div class="card" style="height: 300px; margin-top: 80px;">
+    <div class="header">
+        <h1>الظهر  </h1>
+    </div>
+    <div class="body center" style="height: 80%; ">
+        <h1 class="time" id="duhr-time">4:00</h1>
+    </div>
+</div>
+<!-- close card -->
+<!-- open card -->
+<div class="card" style="height: 300px; margin-top: 80px;">
+    <div class="header">
+        <h1>العصر  </h1>
+    </div>
+    <div class="body center" style="height: 80%; ">
+        <h1 class="time" id="asr-time">4:00</h1>
+    </div>
+</div>
+<!-- close card -->
+<!-- open card -->
+<div class="card" style="height: 300px; margin-top: 80px;">
+    <div class="header">
+        <h1>المغرب  </h1>
+    </div>
+    <div class="body center" style="height: 80%; ">
+        <h1 class="time" id="maghreb-time">4:00</h1>
+    </div>
+</div>
+<!-- close card -->
+<!-- open card -->
+<div class="card" style="height: 300px; margin-top: 80px;">
+    <div class="header">
+        <h1>العشاء </h1>
+    </div>
+    <div class="body center" style="height: 80%; ">
+        <h1 class="time" id="isha-time">4:00</h1>
+    </div>
+</div>
+
+<!-- close card -->
+</div>
+<!-- change city select -->
+<div class="center" style="margin-top: 120px;">
+    <select name="" id="cities-select" style="width: 300px;height: 39px;font-size: 25px; font-family: Tajawal; background: none; color: white; padding: 5px; border-radius: 20px; margin-right: 5px">
+<!--         <option value=" " style="color: black;">بنزرت</option>
+        <option value=" "style="color: black;">نابل</option>
+        <option value=" "style="color: black;">تونس</option> -->
+    </select>
+</div>
+</div>
+<!-- /change city select -->
+
+
+
+<!--     <div class="b">
+        <h1>4:00</h1>
+    </div>
+    <div class="b">
+    <h1>5:00</h1>
+    </div>
+    <div class="b">
+       <h1>6:00</h1>
+    </div>
+    <div class="b">
+       <h1>7:00</h1>
+    </div>
+    <div class="b">
+       <h1>8:00</h1>
+    </div -->>
+</body>
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="salattime.js"></script>
+</html>
